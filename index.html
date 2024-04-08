@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar color-background">
+        <div class="container m-0">
+          <a class="navbar-brand" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="35"
+              height="35"
+              fill="#F4F6F8"
+              class="bi bi-stack ms-3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.6.6 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.6.6 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.6.6 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535z"
+              />
+              <path
+                d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.6.6 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0z"
+              />
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div
+        class="container vh-100 d-flex justify-content-center align-items-center"
+      >
+        <div class="row">
+          <div class="co-12">
+            <div class="container d-flex justify-content-space-evenly">
+              <div class="row">
+                <div class="col-12 mb-3">
+                  <h1 class="fw-bold">Sign in</h1>
+                  <small class="text-body-secondary"
+                    >Sign in on the internal platform</small
+                  >
+                </div>
+
+                <div class="col-6 d-grid">
+                  <button
+                    type="button"
+                    class="btn btn-primary mt-3 d-flex align-items-centerd-grid justify-content-center gap-2 color-background"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1.2em"
+                      height="1.2em"
+                      viewBox="0 0 256 256"
+                    >
+                      <path
+                        fill="#5667cb"
+                        d="M256 128C256 57.308 198.692 0 128 0C57.308 0 0 57.308 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.348-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.959 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445"
+                      />
+                      <path
+                        fill="#fff"
+                        d="m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A128.959 128.959 0 0 0 128 256a128.9 128.9 0 0 0 20-1.555V165z"
+                      />
+                    </svg>
+                    LOGIN WITH FACEBOOK
+                  </button>
+                </div>
+                <div class="col-6 d-grid">
+                  <button
+                    type="button"
+                    class="btn btn-primary mt-3 d-flex align-items-center justify-content-center gap-2 color-background"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1.18em"
+                      height="1.2em"
+                      viewBox="0 0 256 262"
+                    >
+                      <path
+                        fill="white"
+                        d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622l38.755 30.023l2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"
+                      />
+                      <path
+                        fill="white"
+                        d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055c-34.523 0-63.824-22.773-74.269-54.25l-1.531.13l-40.298 31.187l-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"
+                      />
+                      <path
+                        fill="white"
+                        d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82c0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602z"
+                      />
+                      <path
+                        fill="white"
+                        d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0C79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"
+                      />
+                    </svg>
+                    LOGIN WITH GOOGLE
+                  </button>
+                </div>
+                <div class="col-12 p-2 mt-3 d-flex justify-content-center">
+                  <small class="text-body-secondary"
+                    >Or login with email address</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <form>
+                    <div class="mb-3">
+                      <label for="email-login" class="form-label"
+                        >Email Address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email-login"
+                        aria-describedby="emailHelp"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="password" class="form-label">Password</label>
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="password-login"
+                      />
+                    </div>
+                    <div class="d-grid">
+                      <button
+                        type="submit"
+                        class="btn btn-primary color-background"
+                      >
+                        SIGN IN NOW
+                      </button>
+                      <div class="col-12 mt-3 d-flex">
+                        <small class="text-body-secondary"
+                          >Don't have an acoount?
+                          <a href="./register.html">Sign up</a>
+                        </small>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
